@@ -8,6 +8,11 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+      inputs:
+      force_deploy:
+        description: "Force deployment even if no changes"
+        required: false
+        default: "false"
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
