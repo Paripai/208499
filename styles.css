@@ -1,4 +1,4 @@
-html{
+html {
 	line-height:1.15;
 	-webkit-text-size-adjust:100%;
 	-webkit-tap-highlight-color:transparent
@@ -70,7 +70,7 @@ code{
 img{
 	vertical-align:middle;
 	border-style:none;
-	-webkit-filter: drop-shadow(1px 1px 1px #222);
+	filter:drop-shadow(1px 1px 1px #222)
 }
 th{
 	text-align:inherit
@@ -99,7 +99,7 @@ button{
 	text-transform:none
 }
 [type=button],[type=reset],[type=submit],button{
-	-webkit-appearance:button
+	appearance:button
 }
 [type=button]:not(:disabled),[type=reset]:not(:disabled),[type=submit]:not(:disabled),button:not(:disabled){
 	cursor:pointer
@@ -113,7 +113,7 @@ button{
 }
 [type=search]{
 	outline-offset:-2px;
-	-webkit-appearance:none
+	appearance:none
 }
 [type=search]::-webkit-search-decoration{
 	-webkit-appearance:none
